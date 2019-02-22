@@ -38,4 +38,10 @@ components:{
 </script>
 
 <style>
+
+#app{
+
+  font-family: 'Londrina Outline', cursive;
+  src: url(link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet")
+}
 </style>

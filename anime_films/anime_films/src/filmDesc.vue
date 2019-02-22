@@ -3,9 +3,6 @@
         <h1>Description</h1>
         <h2>{{film.description}}</h2>
         <ul>
-            <!-- <li>
-                Description: {{film.description}}
-            </li> -->
             <li>
                 Release date:{{film.release_date}}
             </li>
@@ -28,14 +25,3 @@
 
 </style>
 
-// import { eventBus } from "./main.js";
-//     export default {
-//         name: "film-list",
-//         data(){
-//             return{
-//                 filmIndex: null,
-//             };
-//         },
-        
-    
-//     props: ["films"],
