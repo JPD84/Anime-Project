@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       films: [],
-      selectedFilm: null
+      selectedFilm: null,
     };
   },
 components:{
@@ -41,18 +41,20 @@ components:{
 
 
 body{
-
-background-image: url("./animepic2.png");
-background-size: cover;
-background-repeat: no-repeat;
+  background-image: url("./animepic2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
 #app{
-
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: 'Doppio One', sans-serif;
   /* src: url(link href="https://fonts.googleapis.com/css?family=Doppio+One" rel="stylesheet"); */
-  text-align: center
+  /* text-align: center */
 };
 
 
@@ -62,8 +64,13 @@ background-repeat: no-repeat;
    opacity: 0.65;
    border-color: transparent!important;
  
-
 };
+
+.selectLabel{
+
+  font-display: 'Doppio One', sans-serif;
+  font-size: 100px;
+}
 
 </style>
 
