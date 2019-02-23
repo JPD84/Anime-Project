@@ -39,9 +39,31 @@ components:{
 
 <style>
 
+
+body{
+
+background-image: url("./animepic2.png");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
 #app{
 
-  font-family: 'Londrina Outline', cursive;
-  src: url(link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet")
-}
+  font-family: 'Doppio One', sans-serif;
+  /* src: url(link href="https://fonts.googleapis.com/css?family=Doppio+One" rel="stylesheet"); */
+  text-align: center
+};
+
+
+#desc{
+
+   background-color: white!important;
+   opacity: 0.65;
+   border-color: transparent!important;
+ 
+
+};
+
 </style>
+

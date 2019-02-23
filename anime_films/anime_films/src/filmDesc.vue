@@ -1,6 +1,6 @@
 <template>
-    <div v-if="film">
-        <h1>Description</h1>
+    <div id="desc" v-if="film">
+        <h2>Description</h2>
         <h2>{{film.description}}</h2>
         <ul>
             <li>
@@ -20,6 +20,7 @@
         
     }
 </script>
+
 
 <style scoped>
 
