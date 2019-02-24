@@ -17,25 +17,21 @@
 //         name: "film-fav",
 //         data(){
 //             return{
-//                 filmIndex:null,
 //                 favouriteFilmsIndex:null,
                 
-//             }
-//         }
+//             };
         
-//     };
+//     },
 //     props: ["favouriteFilms"],
 
 //     methods:{
-//         addToFav: function(){
-//             this.favouriteFilms.push(this.selectedFilm);
+//         addToFav: function(event){
+            
+//             eventBus.$emit("film-fav", this.favouriteFilms[favouriteFilmsIndex])
+//         }
 
-//         selectHandler(){
-//             eventBus.$emit("fav-film", this.favouriteFilms[this.filmIndex]);
-//         };
-
-//     };
 //     }
+// };
 
 
 // </script>
