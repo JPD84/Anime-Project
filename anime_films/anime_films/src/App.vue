@@ -4,6 +4,7 @@
     <h1>Anime Films</h1>
     <film-list v-if="films.length" :films="films"></film-list>
     <film-detail v-if="selectedFilm" :film="selectedFilm"></film-detail>
+    <film-fav v-if="favouriteFilm" :film="favouriteFilm"></film-fav>
   </div>
   
 </template>
@@ -21,7 +22,7 @@ export default {
     return {
       films: [],
       selectedFilm: null,
-      // favouriteFilm:[],
+      // favouriteFilms:[],
     };
   },
 components:{
@@ -36,6 +37,9 @@ components:{
     .then (films => (this.films = films))
     eventBus.$on("film-selected", film =>{
       this.selectedFilm = film;
+    // eventBus.$on("film-fav", film =>{
+    //   this.favouriteFilms = film;
+    // })
     })
     
   }

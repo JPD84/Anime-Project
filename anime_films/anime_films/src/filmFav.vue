@@ -1,36 +1,44 @@
-<template>
-    <!-- <div id="film-fav" v-if="favouriteFilm">
-        <button v-on: click="addToFav">Add Film</button>
-    </div>
+ <template>
+<!-- //   <div>
+//     <div id="film-fav" v-if="favouriteFilm">
+//       <button v-on: click="addToFav">Add Film</button>
+//     </div>
 
-    <div v-for="film in favouriteFilm">
-        <li>{{film.title}}</li>
-    </div> -->
+//     <div v-for="film in favouriteFilms">
+//       <li>{{film.title}}</li>
+//     </div>
+//   </div> -->
 
-</template>
+ </template>
 
-<script>
-    // export default {
-    //     name: "film-fav",
-    //     data(){
-    //         return{
-    //             filmIndex:null,
-    //         }
-    //     }
+ <script>
+// import { eventBus } from "./main.js";
+//     export default {
+//         name: "film-fav",
+//         data(){
+//             return{
+//                 filmIndex:null,
+//                 favouriteFilmsIndex:null,
+                
+//             }
+//         }
         
-    // }
-    // props: ["films"];
+//     };
+//     props: ["favouriteFilms"],
 
-    // methods:{
-    //     addToFav: function(){
-    //         this.favouriteFilms.push(this.favouriteFilms)
-    //     }
+//     methods:{
+//         addToFav: function(){
+//             this.favouriteFilms.push(this.selectedFilm);
 
-    // }
+//         selectHandler(){
+//             eventBus.$emit("fav-film", this.favouriteFilms[this.filmIndex]);
+//         };
+
+//     };
+//     }
 
 
-</script>
+// </script>
 
-<style scoped>
-
-</style>
+// <style scoped>
+// </style>
